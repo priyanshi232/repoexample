@@ -1,0 +1,3 @@
+git pull origin pull all changes of current branch 
+if i want to pull all changes aling with current and other brancges those have some chnges 
+then i have to do
