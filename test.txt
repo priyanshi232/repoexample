@@ -2,3 +2,4 @@ hello
 hi
 hey
 good morning
+pull=fetch+merge
