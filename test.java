@@ -1,3 +1,1 @@
-idbdnbd
-'dndndnd
-dnmdnnn
+python
