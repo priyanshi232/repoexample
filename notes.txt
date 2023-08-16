@@ -7,4 +7,9 @@ git pull origin other_branch_name
 
 git pull origin it will always pull to main. no matter you are on which branch
 
+adding file from git
+VIM file.extension
+
+esc + : + w+ q
+
 
