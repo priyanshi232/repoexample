@@ -3,6 +3,8 @@ if i want to pull all changes aling with current and other brancges those have s
 then i have to do
 goto other branch
 and then do this
-git pull origin develop
+git pull origin other_branch_name
 
 git pull origin it will always pull to main. no matter you are on which branch
+
+
