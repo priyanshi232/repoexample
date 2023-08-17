@@ -19,5 +19,8 @@ rebase is also kind of merge
 1,2,3 are commits of main
 A,B are of seocnd branch
 
-commits will be shown acc. to timestamp
+commits will be shown acc. to timestamp 
+
+while merge will be like 
+1->2->3->A->B
 
