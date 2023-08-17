@@ -1,8 +1,28 @@
-hello 
-i hope you are well
-thankyou
+upload all assignments on github repo
 
-create a navbar that contains some options files view help
-when u place a cursor on option then it show a dropdown list and background color should be changes on placing cursor.
+1.create a navbar that contains some options i.e. files view help
+when u place a cursor on any option then it show a dropdown list and background color should change on placing cursor.
 when you take off cursor , dropdown list should disappear.
+
+2.create a registration page with following fields 
+first name
+last name
+dob (calendar date)
+password
+confirm password
+qualification (checkboxes ) one option should be already selected
+gender (radio button)
+state  (dropdown list)
+country (dropdown list)
+mobile no
+email
+comments (text area)
+submit button ( value = Register)
+reset button (value = cancel )
+
+
+
+
+
+
 
