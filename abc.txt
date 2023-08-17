@@ -3,6 +3,6 @@ i hope you are well
 thankyou
 
 create a navbar that contains some options files view help
-when u place a cursor on option then it show a dropdown list.
+when u place a cursor on option then it show a dropdown list and background color should be changes on placing cursor.
 when you take off cursor , dropdown list should disappear.
 
