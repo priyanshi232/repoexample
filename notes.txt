@@ -24,3 +24,12 @@ commits will be shown acc. to timestamp
 while merge will be like 
 1->2->3->A->B
 
+git stash
+you are working 2 files and added to staging area but not commited now you have to add one file and commit it then if u will commit then all files will be commited together but u want to commit only one file so you will all other uncompleted files into stack area means stash area and then commit all other files u want  to 
+git stash 
+// all files till now will be moved to stashing area
+now make new files, add them and commit
+now remove those uncompleted files from stash area
+git stash pop
+
+
