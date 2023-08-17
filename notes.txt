@@ -19,4 +19,5 @@ rebase is also kind of merge
 1,2,3 are commits of main
 A,B are of seocnd branch
 
+commits will be shown acc. to timestamp
 
