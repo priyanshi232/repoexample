@@ -1,1 +1,52 @@
 auto increment column must be pk
+ select * from employee2 where emp_sal>=7000 and emp_sal<=15000;
+select * from employee2 where emp_sal in(5000,20000); this is not range it should be exact val.
+
+order by
+asc
+desc
+
+select * from employee2 order by emp_sal;  asc. by default will be taken.
+select * from employee order by deptno,emp_sal asc;
++--------+----------+---------+--------+
+| emp_id | emp_name | emp_sal | deptno |
++--------+----------+---------+--------+
+|      1 | rama     |     191 |      1 |
+|      2 | xxjn     |   29292 |      1 |
+|      3 | ddd      |   83283 |      2 |
++--------+----------+---------+--------+
+
+
+select * from employee limit 2;   starting 2 rows will be shown
+select * from employee order by deptno desc limit 2;   last 2
+
+group by 
+count
+ select count(*) from employee;  it will count all rows
++----------+
+| count(*) |
++----------+
+|        3 |
++----------+
+
+max select max(emp_sal) from employee;     min select min(emp_sal) from employee;  sum select sum(emp_sal) from employee;  avg select avg(emp_sal) from employee;
+select sum(emp_sal) from employee group by deptno=1;    dept wise
++--------------+    
+| sum(emp_sal) |
++--------------+
+|        29483 |
+|        83283 |
++--------------+
+ select deptno,sum(emp_sal) from employee group by deptno;
++--------+--------------+
+| deptno | sum(emp_sal) |
++--------+--------------+
+|      1 |        29483 |
+|      2 |        83283 |
++--------+--------------+
+select emp_name,emp_sal from employee where emp_sal = (select max(emp_sal) from employee);  to show emp name having max salary;
+% any char or string _ any char
+
+join
+equal joi: fetches only common data
+inner join fetches common data ignore uncommon data
